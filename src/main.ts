@@ -7,7 +7,7 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
 }
-
+//bootstaping our angular app
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.log(err));
 
